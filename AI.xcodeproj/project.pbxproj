@@ -13,6 +13,9 @@
 		D7C0ACDD23992E6300576FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C0ACDB23992E6300576FD3 /* Main.storyboard */; };
 		D7C0ACDF23992E6500576FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C0ACDE23992E6500576FD3 /* Assets.xcassets */; };
 		D7C0ACE223992E6500576FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C0ACE023992E6500576FD3 /* LaunchScreen.storyboard */; };
+		D7C0ACEC23992F2D00576FD3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0ACEB23992F2D00576FD3 /* Image.swift */; };
+		D7C0ACEE23992F5200576FD3 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0ACED23992F5200576FD3 /* Drawing.swift */; };
+		D7CFB08723999B5F001F55C0 /* DrawingClassiferModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D7CFB08623999B5F001F55C0 /* DrawingClassiferModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D7C0ACDE23992E6500576FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7C0ACE123992E6500576FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7C0ACE323992E6500576FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C0ACEB23992F2D00576FD3 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		D7C0ACED23992F5200576FD3 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		D7CFB08623999B5F001F55C0 /* DrawingClassiferModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DrawingClassiferModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		D7C0ACD423992E6300576FD3 /* AI */ = {
 			isa = PBXGroup;
 			children = (
+				D7CFB08623999B5F001F55C0 /* DrawingClassiferModel.mlmodel */,
 				D7C0ACD523992E6300576FD3 /* AppDelegate.swift */,
 				D7C0ACD723992E6300576FD3 /* SceneDelegate.swift */,
 				D7C0ACD923992E6300576FD3 /* ViewController.swift */,
@@ -63,6 +70,8 @@
 				D7C0ACDE23992E6500576FD3 /* Assets.xcassets */,
 				D7C0ACE023992E6500576FD3 /* LaunchScreen.storyboard */,
 				D7C0ACE323992E6500576FD3 /* Info.plist */,
+				D7C0ACEB23992F2D00576FD3 /* Image.swift */,
+				D7C0ACED23992F5200576FD3 /* Drawing.swift */,
 			);
 			path = AI;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CFB08723999B5F001F55C0 /* DrawingClassiferModel.mlmodel in Sources */,
 				D7C0ACDA23992E6300576FD3 /* ViewController.swift in Sources */,
 				D7C0ACD623992E6300576FD3 /* AppDelegate.swift in Sources */,
+				D7C0ACEE23992F5200576FD3 /* Drawing.swift in Sources */,
 				D7C0ACD823992E6300576FD3 /* SceneDelegate.swift in Sources */,
+				D7C0ACEC23992F2D00576FD3 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
